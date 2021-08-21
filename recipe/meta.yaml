@@ -1,17 +1,17 @@
-{% set version = "1.35.0" %}
-{% set sha256 = "fd85589416f8246cefc4e6ba2fa52da54fdf11fd5602a2db4b6749f7c33b5b2d" %}
+{% set version = "1.36.0" %}
+{% set sha256 = "b593b2fd382489909c96c62c6e180054c3332b950be3d73e0cb0d21ea8afb3c5" %}
 
 package:
   name: aria2
-  version: '{{ version }}'
+  version: {{ version }}
 
 source:
   url: https://github.com/aria2/aria2/releases/download/release-{{ version }}/aria2-{{ version }}.tar.gz
-  sha256: '{{ sha256 }}'
+  sha256: {{ sha256 }}
 
 build:
   number: 0
-  skip: True  # [not linux]
+  skip: true  # [not linux]
 
 requirements:
   build:
@@ -41,9 +41,7 @@ test:
 
 about:
   home: https://aria2.github.io/
-  summary: aria2 is a lightweight multi-protocol & multi-source, cross platform download
-    utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent
-    and Metalink.
+  summary: aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.
   license: GPL-2.0-only
   license_family: GPL
   license_file: COPYING
