@@ -1,22 +1,24 @@
-cdt_name:
-- cos6
+MACOSX_DEPLOYMENT_TARGET:
+- '10.9'
 channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
 cxx_compiler:
-- gxx
+- clangxx
 cxx_compiler_version:
-- '9'
-docker_image:
-- quay.io/condaforge/linux-anvil-comp7
+- '11'
+gmp:
+- '6'
 libssh2:
 - '1'
 libxml2:
 - '2.9'
-openssl:
-- 1.1.1
+macos_machine:
+- x86_64-apple-darwin13.4.0
 pin_run_as_build:
+  gmp:
+    max_pin: x
   libxml2:
     max_pin: x.x
   sqlite:
@@ -26,9 +28,6 @@ pin_run_as_build:
 sqlite:
 - '3'
 target_platform:
-- linux-64
-zip_keys:
-- - cdt_name
-  - docker_image
+- osx-64
 zlib:
 - '1.2'
