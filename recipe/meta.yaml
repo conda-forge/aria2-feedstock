@@ -10,7 +10,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 3
   skip: True  # [win]
 
 requirements:
@@ -20,15 +20,6 @@ requirements:
     - pkg-config  # [osx]
 
   host:
-    - zlib
-    - openssl  # [linux]
-    - sqlite
-    - libssh2
-    - c-ares
-    - libxml2
-    - gmp  # [osx]
-
-  run:
     - zlib
     - openssl  # [linux]
     - sqlite
