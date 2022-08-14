@@ -28,15 +28,6 @@ requirements:
     - libxml2
     - gmp  # [osx]
 
-  run:
-    - zlib
-    - openssl  # [linux]
-    - sqlite
-    - libssh2
-    - c-ares
-    - libxml2
-    - gmp  # [osx]
-
 test:
   commands:
     - aria2c -v
