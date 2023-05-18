@@ -9,22 +9,15 @@ channel_targets:
 cxx_compiler:
 - gxx
 cxx_compiler_version:
-- '10'
+- '12'
 docker_image:
 - quay.io/condaforge/linux-anvil-cos7-x86_64
 libssh2:
 - '1'
 libxml2:
-- '2.9'
+- '2.11'
 openssl:
-- 1.1.1
-pin_run_as_build:
-  libxml2:
-    max_pin: x.x
-  sqlite:
-    max_pin: x
-  zlib:
-    max_pin: x.x
+- '3'
 sqlite:
 - '3'
 target_platform:
