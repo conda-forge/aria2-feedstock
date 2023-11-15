@@ -1,5 +1,5 @@
-{% set version = "1.36.0" %}
-{% set sha256 = "b593b2fd382489909c96c62c6e180054c3332b950be3d73e0cb0d21ea8afb3c5" %}
+{% set version = "1.37.0" %}
+{% set sha256 = "8e7021c6d5e8f8240c9cc19482e0c8589540836747744724d86bf8af5a21f0e8" %}
 
 package:
   name: aria2
@@ -10,8 +10,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 4
-  skip: True  # [win]
+  number: 0
+  skip: true  # [win]
 
 requirements:
   build:
