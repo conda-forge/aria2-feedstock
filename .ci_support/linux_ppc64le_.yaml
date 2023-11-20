@@ -1,0 +1,26 @@
+c_ares:
+- '1'
+cdt_name:
+- cos7
+channel_sources:
+- conda-forge
+channel_targets:
+- conda-forge main
+cxx_compiler:
+- gxx
+cxx_compiler_version:
+- '12'
+docker_image:
+- quay.io/condaforge/linux-anvil-ppc64le
+libssh2:
+- '1'
+libxml2:
+- '2.11'
+openssl:
+- '3'
+sqlite:
+- '3'
+target_platform:
+- linux-ppc64le
+zlib:
+- '1.2'
