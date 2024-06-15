@@ -19,7 +19,7 @@ docker_image:
 libssh2:
 - '1'
 libxml2:
-- '2.11'
+- '2'
 openssl:
 - '3'
 sqlite:
@@ -27,4 +27,4 @@ sqlite:
 target_platform:
 - linux-aarch64
 zlib:
-- '1.2'
+- '1'
