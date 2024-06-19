@@ -200,4 +200,5 @@ Feedstock Maintainers
 =====================
 
 * [@acaprez](https://github.com/acaprez/)
+* [@danielnachun](https://github.com/danielnachun/)
 
