@@ -1,33 +1,32 @@
+MACOSX_DEPLOYMENT_TARGET:
+- '11.0'
+MACOSX_SDK_VERSION:
+- '11.0'
 c_ares:
 - '1'
 c_stdlib:
-- sysroot
+- macosx_deployment_target
 c_stdlib_version:
-- '2.17'
-cdt_name:
-- cos7
+- '11.0'
 channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
 cxx_compiler:
-- gxx
+- clangxx
 cxx_compiler_version:
-- '12'
-docker_image:
-- quay.io/condaforge/linux-anvil-ppc64le
+- '16'
+gmp:
+- '6'
 libssh2:
 - '1'
 libxml2:
 - '2'
-openssl:
-- '3'
+macos_machine:
+- arm64-apple-darwin20.0.0
 sqlite:
 - '3'
 target_platform:
-- linux-ppc64le
-zip_keys:
-- - c_stdlib_version
-  - cdt_name
+- osx-arm64
 zlib:
 - '1'

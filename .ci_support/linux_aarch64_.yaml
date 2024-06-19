@@ -2,6 +2,10 @@ BUILD:
 - aarch64-conda_cos7-linux-gnu
 c_ares:
 - '1'
+c_stdlib:
+- sysroot
+c_stdlib_version:
+- '2.17'
 cdt_arch:
 - aarch64
 cdt_name:
@@ -19,12 +23,15 @@ docker_image:
 libssh2:
 - '1'
 libxml2:
-- '2.11'
+- '2'
 openssl:
 - '3'
 sqlite:
 - '3'
 target_platform:
 - linux-aarch64
+zip_keys:
+- - c_stdlib_version
+  - cdt_name
 zlib:
-- '1.2'
+- '1'
