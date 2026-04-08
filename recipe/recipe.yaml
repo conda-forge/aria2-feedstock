@@ -27,7 +27,7 @@ requirements:
     - sqlite
     - libssh2
     - c-ares
-    - libxml2
+    - libxml2-devel
     - if: linux
       then: openssl
     - if: osx
