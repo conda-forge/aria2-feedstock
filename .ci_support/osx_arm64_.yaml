@@ -21,7 +21,7 @@ gmp:
 libssh2:
 - '1'
 libxml2:
-- '2.13'
+- '2.14'
 macos_machine:
 - arm64-apple-darwin20.0.0
 sqlite:
