@@ -1,5 +1,7 @@
 c_ares:
 - '1'
+c_compiler:
+- vs2022
 c_stdlib:
 - vs
 channel_sources:
@@ -8,6 +10,8 @@ channel_targets:
 - conda-forge main
 cxx_compiler:
 - vs2022
+gmp:
+- '6'
 libssh2:
 - '1'
 libxml2_devel:
