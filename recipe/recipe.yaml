@@ -24,6 +24,7 @@ requirements:
     - if: win
       then:
         - autotools_clang_conda
+        - m2-patch
   host:
     - zlib
     - sqlite
